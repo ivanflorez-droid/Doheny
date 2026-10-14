@@ -1,0 +1,288 @@
+<div class="dir-2 font-serif text-[#1A2E3B] bg-[#FAF8F5] selection:bg-[#123D66] selection:text-white antialiased">
+<style>
+.dir-2 {
+  --blue: #009FE3;
+  --deep: #123D66;
+  --yellow: #F5C542;
+  --green: #79B942;
+  --red: #E94B4B;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+}
+.dir-2 .sans {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+.dir-2 .d2-ln { display: block; overflow: hidden; }
+.dir-2 .d2-ln > span {
+  display: block;
+  animation: d2-reveal 1.1s cubic-bezier(0.2, 0.7, 0, 1) both;
+}
+.dir-2 .d2-ln:nth-child(2) > span { animation-delay: 0.15s; }
+.dir-2 .d2-ln:nth-child(3) > span { animation-delay: 0.3s; }
+
+@keyframes d2-reveal {
+  from { transform: translateY(120%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.dir-2 .d2-drift {
+  background-size: 135% 135%;
+  animation: d2-ambient 18s ease-in-out infinite alternate;
+}
+@keyframes d2-ambient {
+  from { background-position: 10% 10%; }
+  to { background-position: 90% 70%; }
+}
+
+.dir-2 .d2-mq {
+  display: flex;
+  width: max-content;
+  animation: d2-loop 36s linear infinite;
+}
+@keyframes d2-loop {
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dir-2 * { animation: none !important; }
+}
+</style>
+
+<!-- NAV -->
+<header class="border-b border-[#123D66]/10 bg-[#FAF8F5]/90 backdrop-blur sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded-full border border-[#123D66] flex items-center justify-center text-[#123D66]">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20M2 12h20"/></svg>
+      </div>
+      <div>
+        <span class="font-bold tracking-tight text-lg text-[#123D66]">SCHOLAS USA</span>
+        <span class="sans text-[10px] tracking-widest uppercase text-[#617383] block">Foundation Partnership Brief</span>
+      </div>
+    </div>
+    
+    <nav class="hidden md:flex items-center gap-8 sans text-xs uppercase tracking-wider text-[#617383] font-semibold">
+      <a href="#dialogue" class="hover:text-[#123D66]">The Mission</a>
+      <a href="#pathway" class="hover:text-[#123D66]">Parish Model</a>
+      <a href="#fellowship" class="hover:text-[#123D66]">Pico-Union</a>
+      <a href="#stewardship" class="hover:text-[#123D66]">Partnership</a>
+    </nav>
+
+    <a href="#stewardship" class="sans px-5 py-2.5 rounded-full bg-[#123D66] text-white text-xs font-semibold tracking-wider uppercase hover:bg-[#009FE3] transition-colors">
+      Initiate Proposal
+    </a>
+  </div>
+</header>
+
+<!-- HERO: Editorial Centered Statement with Layered Visuals -->
+<section class="py-24 max-w-5xl mx-auto px-6 text-center">
+  <div class="sans inline-flex items-center gap-2 px-4 py-1 rounded-full border border-[#123D66]/20 text-[#123D66] text-xs uppercase tracking-widest mb-8 font-semibold">
+    Archdiocese of Los Angeles Collaboration
+  </div>
+
+  <h1 class="text-4xl md:text-6xl font-normal text-[#123D66] leading-[1.1] tracking-tight mb-8">
+    <span class="d2-ln"><span>Strengthening Catholic Faith.</span></span>
+    <span class="d2-ln"><span>Empowering Young Lives.</span></span>
+    <span class="d2-ln"><span class="italic text-[#009FE3]">Transforming Communities.</span></span>
+  </h1>
+
+  <p class="sans text-base md:text-lg text-[#617383] max-w-2xl mx-auto leading-relaxed mb-10">
+    A philanthropic initiative presented to the Carrie Estelle Doheny Foundation: deepening post-confirmation youth engagement and family resilience in Los Angeles parishes.
+  </p>
+
+  <div class="flex flex-wrap justify-center gap-4 sans mb-16">
+    <a href="#stewardship" class="px-8 py-3.5 rounded-full bg-[#123D66] text-white text-sm font-semibold hover:bg-[#009FE3] transition-all shadow-md">
+      Explore Partnership Scope
+    </a>
+    <a href="#dialogue" class="px-8 py-3.5 rounded-full bg-white border border-[#123D66]/20 text-[#123D66] text-sm font-semibold hover:bg-[#FAF8F5] transition-all">
+      Read Archbishop's Endorsement
+    </a>
+  </div>
+
+  <!-- Hero Full-width art-directed frame -->
+  <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-[#123D66]/10 aspect-[21/9] d2-drift"
+       data-image-slot="hero-editorial: Los Angeles Catholic youth in dialogue encounter"
+       style="background: radial-gradient(120% 80% at 20% 30%, #F5C54244 0%, transparent 60%), radial-gradient(100% 70% at 80% 70%, #009FE344 0%, transparent 70%), linear-gradient(140deg, #123D66, #1A2E3B);">
+    <div class="absolute inset-0 bg-gradient-to-t from-[#123D66]/90 via-transparent to-transparent flex items-end p-8 text-white text-left">
+      <div>
+        <div class="sans text-xs uppercase tracking-widest text-[#F5C542] font-semibold">Culture of Encounter</div>
+        <div class="text-xl font-medium">St. Thomas the Apostle Parish, Pico-Union</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2: EDITORIAL ESSAY & ARCHBISHOP GOMEZ QUOTE -->
+<section id="dialogue" class="py-24 bg-white border-y border-[#123D66]/10">
+  <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+    <div class="md:col-span-7 space-y-6">
+      <span class="sans text-xs font-bold text-[#009FE3] uppercase tracking-widest">Institutional Roots</span>
+      <h2 class="text-3xl md:text-4xl text-[#123D66] font-normal leading-tight">
+        An Educational Movement Founded by Pope Francis
+      </h2>
+      <p class="text-[#617383] text-base leading-relaxed">
+        Scholas USA brings young people into meaningful dialogue, fostering authentic Catholic identity through active community service. In central Los Angeles, we work alongside parish leadership to keep young Catholics engaged and supported beyond confirmation.
+      </p>
+      
+      <div class="p-6 rounded-2xl bg-[#FAF8F5] border-l-4 border-[#009FE3] space-y-3">
+        <blockquote class="italic text-[#123D66] text-lg font-normal" data-content-slot="archbishop-quote" data-slot-source="brief">
+          “I want to thank Pope Francis for starting Scholas, and especially for coming to Los Angeles. I hope this can reach all across the United States.”
+        </blockquote>
+        <div class="sans text-xs text-[#617383] font-semibold uppercase tracking-wider">
+           ·  Archbishop José H. Gómez, Archdiocese of Los Angeles
+        </div>
+      </div>
+    </div>
+
+    <div class="md:col-span-5">
+      <div class="rounded-3xl overflow-hidden shadow-lg border border-[#123D66]/10 aspect-[4/5] d2-drift"
+           data-image-slot="portrait-essay: Archbishop Gomez and Scholas youth dialogue"
+           style="background: radial-gradient(110% 80% at 30% 20%, #79B94233 0%, transparent 60%), linear-gradient(150deg, #123D66, #172B3A);">
+        <div class="h-full flex flex-col justify-end p-6 bg-gradient-to-t from-[#123D66]/90 to-transparent text-white">
+          <span class="sans text-[11px] uppercase tracking-widest text-[#F5C542]">Archdiocese Partnership</span>
+          <div class="text-base font-semibold mt-1">Archbishop José H. Gómez</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: THE PARISH PATHWAY -->
+<section id="pathway" class="py-24 max-w-5xl mx-auto px-6">
+  <div class="text-center max-w-2xl mx-auto space-y-3 mb-16">
+    <span class="sans text-xs font-bold text-[#79B942] uppercase tracking-widest">The Scholas Pathway</span>
+    <h2 class="text-3xl md:text-4xl text-[#123D66]">Five Pillars of Parish Youth Renewal</h2>
+    <p class="sans text-sm text-[#617383]">How our model accompanies young people from initial belonging to lifelong service.</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+    <div class="p-6 rounded-2xl bg-white border border-[#123D66]/10 space-y-3 text-center">
+      <div class="sans w-8 h-8 rounded-full bg-[#123D66]/10 text-[#123D66] font-bold text-xs flex items-center justify-center mx-auto">I</div>
+      <h3 class="font-bold text-[#123D66] text-sm">Safe Spaces</h3>
+      <p class="sans text-xs text-[#617383]">Listening circles of trust.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-white border border-[#123D66]/10 space-y-3 text-center">
+      <div class="sans w-8 h-8 rounded-full bg-[#009FE3]/15 text-[#009FE3] font-bold text-xs flex items-center justify-center mx-auto">II</div>
+      <h3 class="font-bold text-[#123D66] text-sm">Relationships</h3>
+      <p class="sans text-xs text-[#617383]">Deepened faith mentors.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-white border border-[#123D66]/10 space-y-3 text-center">
+      <div class="sans w-8 h-8 rounded-full bg-[#F5C542]/20 text-[#123D66] font-bold text-xs flex items-center justify-center mx-auto">III</div>
+      <h3 class="font-bold text-[#123D66] text-sm">Leadership</h3>
+      <p class="sans text-xs text-[#617383]">Civic and parish skills.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-white border border-[#123D66]/10 space-y-3 text-center">
+      <div class="sans w-8 h-8 rounded-full bg-[#E94B4B]/15 text-[#E94B4B] font-bold text-xs flex items-center justify-center mx-auto">IV</div>
+      <h3 class="font-bold text-[#123D66] text-sm">Families</h3>
+      <p class="sans text-xs text-[#617383]">Intergenerational dialogue.</p>
+    </div>
+    <div class="p-6 rounded-2xl bg-white border border-[#123D66]/10 space-y-3 text-center">
+      <div class="sans w-8 h-8 rounded-full bg-[#79B942]/20 text-[#79B942] font-bold text-xs flex items-center justify-center mx-auto">V</div>
+      <h3 class="font-bold text-[#123D66] text-sm">Service</h3>
+      <p class="sans text-xs text-[#617383]">Gospel in daily action.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: PICO-UNION COHORTS -->
+<section id="fellowship" class="py-24 bg-[#123D66] text-white">
+  <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+    <div class="md:col-span-6 space-y-5">
+      <span class="sans text-xs font-bold text-[#F5C542] uppercase tracking-widest">Community Focus</span>
+      <h2 class="text-3xl md:text-4xl text-white font-normal">Rooted in Pico-Union: St. Thomas the Apostle</h2>
+      <p class="text-white/80 text-sm leading-relaxed">
+        Our anchor parish initiative engages vulnerable young people with structured formation and community service programs.
+      </p>
+
+      <div class="grid grid-cols-2 gap-4 pt-2 sans">
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15">
+          <div class="text-3xl font-extrabold text-[#F5C542]" data-content-slot="target-youth" data-slot-source="brief">300</div>
+          <div class="text-xs font-bold uppercase tracking-wider text-white mt-1">Youth Program Target</div>
+        </div>
+        <div class="p-5 rounded-2xl bg-white/10 border border-white/15">
+          <div class="text-3xl font-extrabold text-[#79B942]" data-content-slot="target-families" data-slot-source="brief">50</div>
+          <div class="text-xs font-bold uppercase tracking-wider text-white mt-1">Families Cohort Target</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:col-span-6">
+      <div class="rounded-3xl overflow-hidden aspect-[4/3] border border-white/20 d2-drift"
+           data-image-slot="pico-union-parish: St Thomas the Apostle church gathering"
+           style="background: radial-gradient(120% 80% at 70% 30%, #009FE355 0%, transparent 60%), linear-gradient(145deg, #123D66, #1A2E3B);">
+        <div class="h-full flex flex-col justify-end p-6 bg-gradient-to-t from-black/80 to-transparent">
+          <div class="sans text-xs text-[#F5C542] font-semibold uppercase">Pico-Union, Los Angeles</div>
+          <div class="text-base font-semibold">Parish Community Encounter Space</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: PARTNERSHIP PROPOSAL & FORM -->
+<section id="stewardship" class="py-24 max-w-5xl mx-auto px-6">
+  <div class="text-center max-w-2xl mx-auto space-y-3 mb-16">
+    <span class="sans text-xs font-bold text-[#009FE3] uppercase tracking-widest">Philanthropic Opportunity</span>
+    <h2 class="text-3xl md:text-4xl text-[#123D66]">Carrie Estelle Doheny Foundation Partnership</h2>
+    <p class="sans text-sm text-[#617383]">Strategic opportunities designed to deepen Catholic youth life in Los Angeles.</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+    <div class="p-8 rounded-3xl bg-white border border-[#123D66]/15 shadow-sm space-y-4">
+      <span class="sans text-xs font-bold text-[#009FE3] uppercase tracking-wider">Parish Engagement</span>
+      <div class="text-3xl font-normal text-[#123D66]" data-content-slot="tier-1" data-slot-source="brief">$25,000 – $50,000</div>
+      <div class="sans text-xs font-bold text-[#123D66] uppercase">Initial Partnership</div>
+      <p class="sans text-xs text-[#617383] leading-relaxed">
+        Funding directly sustains weekly parish workshops and Strong Roots family engagement at St. Thomas the Apostle.
+      </p>
+    </div>
+
+    <div class="p-8 rounded-3xl bg-[#FAF8F5] border-2 border-[#123D66] shadow-md space-y-4">
+      <span class="sans text-xs font-bold text-[#F5C542] uppercase tracking-wider">Replication Scope</span>
+      <div class="text-3xl font-normal text-[#123D66]" data-content-slot="tier-2" data-slot-source="brief">$75,000 – $100,000</div>
+      <div class="sans text-xs font-bold text-[#123D66] uppercase">Expansion Opportunity</div>
+      <p class="sans text-xs text-[#617383] leading-relaxed">
+        Enables replicating the parish-based model across additional Catholic communities in Los Angeles.
+      </p>
+    </div>
+  </div>
+
+  <!-- CONVERSION RAIL FORM -->
+  <div class="max-w-xl mx-auto bg-white p-8 rounded-3xl border border-[#123D66]/15 shadow-sm sans">
+    <h3 class="text-xl font-bold text-[#123D66] mb-2 text-center">Start a Strategic Conversation</h3>
+    <p class="text-xs text-[#617383] text-center mb-6">Inquiry connects with Maria Jimena Florez, Executive Director.</p>
+
+    <form action="#stewardship" method="POST" class="space-y-4 text-xs">
+      <div>
+        <label class="block font-bold text-[#123D66] mb-1">Name</label>
+        <input type="text" required placeholder="Foundation Officer Name" class="w-full px-4 py-3 rounded-xl border border-[#123D66]/20 bg-[#FAF8F5]">
+      </div>
+      <div>
+        <label class="block font-bold text-[#123D66] mb-1">Email</label>
+        <input type="email" required placeholder="officer@dohenyfoundation.org" class="w-full px-4 py-3 rounded-xl border border-[#123D66]/20 bg-[#FAF8F5]">
+      </div>
+      <div>
+        <label class="block font-bold text-[#123D66] mb-1">Notes</label>
+        <textarea rows="3" placeholder="Partnership focus or meeting inquiry..." class="w-full px-4 py-3 rounded-xl border border-[#123D66]/20 bg-[#FAF8F5]"></textarea>
+      </div>
+      <button type="submit" class="w-full py-3.5 rounded-xl bg-[#123D66] text-white font-bold tracking-wider uppercase hover:bg-[#009FE3] transition-colors">
+        Submit Strategic Inquiry
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-[#1A2E3B] text-white py-12 border-t border-white/10 sans text-xs">
+  <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+    <div class="space-y-1 text-center md:text-left">
+      <div class="font-bold text-sm tracking-wide">SCHOLAS USA</div>
+      <div class="text-white/60">501(c)(3) Non-Profit · Tax ID 84-5101258 · Founded 2020</div>
+      <div class="text-white/40">President & Executive Director: Maria Jimena Florez</div>
+    </div>
+    <div class="text-center md:text-right text-white/60 space-y-1">
+      <div>Official Contact: <span class="text-white">jimena.florez@scholasusa.org</span></div>
+      <div>Inquiries: <span class="text-white">info@scholasusa.org</span></div>
+    </div>
+  </div>
+</footer>
+</div>

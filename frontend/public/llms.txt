@@ -1,0 +1,36 @@
+# Scholas USA — Partnership Proposal for the Carrie Estelle Doheny Foundation
+
+> A Catholic-inspired partnership proposal from Scholas USA: strengthening faith,
+> empowering young people, and transforming communities in Los Angeles.
+
+Scholas USA is a Catholic-inspired educational movement founded by Pope Francis.
+Working alongside the Archdiocese of Los Angeles, it creates spaces of encounter
+where young people discover belonging, deepen their connection to faith,
+strengthen family relationships, and become leaders of service in their
+communities.
+
+## What this site presents
+
+- The Scholas mission and its parish-based model, rooted at St. Thomas the
+  Apostle in Pico-Union, Los Angeles.
+- A five-step accompaniment pathway: safe spaces, relationships, leadership,
+  family strengthening, and service.
+- Program targets for the Pico-Union initiative (300 young people, 50 families)
+  — proposed targets, not completed outcomes.
+- Proposed philanthropic partnership levels for discussion with the Carrie
+  Estelle Doheny Foundation.
+- A verified statement from Archbishop José H. Gómez of Los Angeles and links
+  to Angelus News coverage of Scholas USA.
+
+## Key pages
+
+- `/` — the complete partnership proposal
+- `/privacy` — privacy policy for the partnership inquiry form
+
+## Contact
+
+- General inquiries: info@scholasusa.org
+- President & Executive Director (Maria Jimena Florez): jimena.florez@scholasusa.org
+
+Scholas USA is a registered 501(c)(3) nonprofit organization. Tax ID 84-5101258.
+Established 2020.

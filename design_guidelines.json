@@ -1,0 +1,153 @@
+{
+  "build_manifest": {
+    "direction": {
+      "path": "/app/design/direction.html",
+      "app_type": "ngo-faith",
+      "ambition": "A3",
+      "mode": "light",
+      "rail": "form",
+      "spine": "MISSION-MODEL-PICO_UNION-IMPACT-PARTNERSHIP-CONTACT",
+      "name": "Scholas Editorial Monograph",
+      "tone": "Warm Pastoral Editorial",
+      "axes": {
+        "layout": "centered-stack",
+        "hero": "type-only",
+        "tone_register": "reflective-elevated",
+        "proof": "testimonial-forward",
+        "motion": "entrance-only",
+        "colour": "alabaster+deep-navy",
+        "type_pairing": "serif-display+sans-body"
+      }
+    },
+    "tone_tokens": {
+      "typography": {
+        "display": "\"Iowan Old Style\", \"Palatino Linotype\", Palatino, \"Book Antiqua\", Georgia, serif",
+        "body": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+        "scale": {
+          "h1": "text-4xl md:text-6xl tracking-tight leading-[1.1]",
+          "h2": "text-3xl md:text-4xl leading-tight",
+          "h3": "text-xl font-bold",
+          "body": "text-base md:text-lg leading-relaxed",
+          "small": "text-xs tracking-widest uppercase font-semibold"
+        }
+      },
+      "colors": {
+        "primary": "#123D66",
+        "accent_blue": "#009FE3",
+        "accent_yellow": "#F5C542",
+        "accent_green": "#79B942",
+        "accent_red": "#E94B4B",
+        "background_primary": "#FAF8F5",
+        "background_secondary": "#FFFFFF",
+        "background_dark": "#1A2E3B",
+        "text_primary": "#123D66",
+        "text_secondary": "#617383",
+        "text_dark_bg": "#FFFFFF"
+      },
+      "spacing": "p-6, py-24, gap-12, gap-8",
+      "border_radius": "rounded-2xl, rounded-3xl, rounded-full",
+      "shadows": "shadow-sm, shadow-md, shadow-lg, shadow-2xl"
+    },
+    "conversion_wiring": {
+      "primary_action": "form",
+      "locations": [
+        "Header ('Initiate Proposal')",
+        "Hero ('Explore Partnership Scope')",
+        "Partnership Section (Inquiry Form)"
+      ],
+      "actions": {
+        "form": "Submit partnership inquiry (Full Name, Organization, Email, Message) to FastAPI backend (email via Resend, store in MongoDB)"
+      },
+      "contact_details": {
+        "email_inquiries": "info@scholasusa.org",
+        "email_official": "jimena.florez@scholasusa.org",
+        "director": "Maria Jimena Florez"
+      }
+    },
+    "content_slots": [
+      {
+        "slot": "archbishop-quote",
+        "text": "“I want to thank Pope Francis for starting Scholas, and especially for coming to Los Angeles. I hope this can reach all across the United States.”",
+        "source": "brief"
+      },
+      {
+        "slot": "target-youth",
+        "text": "300",
+        "source": "brief"
+      },
+      {
+        "slot": "target-families",
+        "text": "50",
+        "source": "brief"
+      },
+      {
+        "slot": "tier-1",
+        "text": "$25,000 – $50,000",
+        "source": "brief"
+      },
+      {
+        "slot": "tier-2",
+        "text": "$75,000 – $100,000",
+        "source": "brief"
+      }
+    ],
+    "fabrication_guardrails": [
+      "No invented statistics, metrics, or program outcomes",
+      "No invented testimonials or quotes",
+      "No invented partners, sponsors, or funding commitments",
+      "No invented ratings or awards",
+      "Do not list the Carrie Estelle Doheny Foundation as a current partner"
+    ],
+    "locale": {
+      "language": "en-US",
+      "currency": "USD"
+    }
+  },
+  "image_urls": [
+    {
+      "description": "Los Angeles Catholic youth in dialogue encounter",
+      "category": "hero-editorial",
+      "url": "https://give.scholasusa.org/wp-content/uploads/2026/04/Spaces-of-Encounter.jpg"
+    },
+    {
+      "description": "Archbishop Gomez and Scholas youth dialogue",
+      "category": "portrait-essay",
+      "url": "https://give.scholasusa.org/wp-content/uploads/2026/03/mons-jose-horacio-gomez.webp"
+    },
+    {
+      "description": "St Thomas the Apostle church gathering",
+      "category": "pico-union-parish",
+      "url": "https://give.scholasusa.org/wp-content/uploads/2026/03/1.jpg"
+    },
+    {
+      "description": "Scholas USA Color Logo",
+      "category": "brand-logo",
+      "url": "https://give.scholasusa.org/wp-content/uploads/2026/05/Scholas-USA-Logo.png"
+    },
+    {
+      "description": "Scholas USA Horizontal Logo",
+      "category": "footer-logo",
+      "url": "https://give.scholasusa.org/wp-content/uploads/2026/05/scholasusa-logo-h-1-1024x517.png"
+    }
+  ],
+  "component_path": "/app/src/components",
+  "instructions_to_main_agent": "/app/design/direction.html is the visual source of truth. These guidelines transcribe it and add real images. On any conflict, the direction file wins. Ensure that the layout, colors, font families, classes and HTML structure closely replicate the reference provided in the direction file.",
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic outputs. Avoid this: make creative, distinctive frontends.",
+    "Do not use dark colors as gradients.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition (e.g., `transition: all`). Always add transitions for specific interactive elements like button, input.",
+    "You MUST NOT center align the app container, i.e., do not add `.App { text-align: center; }` in the css file.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects.",
+    "All interactive and key informational elements MUST include a `data-testid` attribute."
+  ],
+  "accessibility": [
+    "Respect `prefers-reduced-motion`.",
+    "Ensure contrast ratio is compliant (minimum 4.5:1 for normal text, 3:1 for large text).",
+    "Provide clear focus states.",
+    "Ensure screen reader compatibility."
+  ]
+}
