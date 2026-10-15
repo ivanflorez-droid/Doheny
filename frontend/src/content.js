@@ -20,14 +20,11 @@ export const ASSETS = {
     "https://give.scholasusa.org/wp-content/uploads/2026/05/Scholas-USA-Logo.png",
   logoWhite:
     "https://give.scholasusa.org/wp-content/uploads/2026/05/Logo-Scholas-White.png",
-  heroImage:
-    "https://give.scholasusa.org/wp-content/uploads/2026/04/Spaces-of-Encounter.jpg",
+  heroImage: "/images/hero-encuentro.webp",
   archbishopPortrait:
     "https://give.scholasusa.org/wp-content/uploads/2026/03/mons-jose-horacio-gomez.webp",
-  missionImage:
-    "https://cdn.prod.website-files.com/64bfdbb4b25648d9c24b7aca/6585ea479398ae84776b8990_cq5dam.thumbnail.cropped.1500.844.webp",
-  picoUnionImage:
-    "https://give.scholasusa.org/wp-content/uploads/2026/05/Pico%E2%80%91Union-Needs-You-Now-Fundrasing-1024x554.jpg",
+  missionImage: "/images/mision-papa-francisco.webp",
+  picoUnionImage: "/images/pico-union-dialogo.webp",
 };
 
 export const NAV_LINKS = [

@@ -38,8 +38,9 @@ give.scholasusa.org/donate-for-youth, scholasusa.org, dohenyfoundation.org.
 ## Implemented (2026-10-14)
 - Full landing page, all 10 sections + header/footer, responsive (1440→390), reduced-motion
   support, scroll-reveal, smooth anchor scrolling, data-testids throughout.
-- Real assets from scholasusa.org/give.scholasusa.org: logos, hero/parish/mission photos,
-  Archbishop Gómez portrait + verified quote, Angelus News coverage links.
+- Real assets: logos + Archbishop Gómez portrait/quote from official Scholas sites;
+  hero/mission/Pico-Union photography uploaded by the user (2026-10-15), optimized to
+  webp and served locally from /app/frontend/public/images/.
 - POST /api/inquiries (pydantic validation, honeypot, IP rate limit 10/hr, Mongo storage,
   Resend notification email with guardrail gate). GET /api/health.
 - SEO: title/description/OG/Twitter/JSON-LD (NGO, Tax ID 84-5101258, founder Pope Francis),

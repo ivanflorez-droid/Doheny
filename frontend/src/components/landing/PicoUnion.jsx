@@ -65,7 +65,7 @@ export const PicoUnion = () => {
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/20">
             <img
               src={ASSETS.picoUnionImage}
-              alt="Community gathering at St. Thomas the Apostle parish in Pico-Union, Los Angeles"
+              alt="Scholas youth dialogue circle at St. Thomas the Apostle parish in Pico-Union, Los Angeles"
               className="h-full w-full object-cover"
               loading="lazy"
             />

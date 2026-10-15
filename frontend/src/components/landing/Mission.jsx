@@ -54,7 +54,7 @@ export const Mission = () => {
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-brand-deep/10 shadow-lg">
             <img
               src={ASSETS.missionImage}
-              alt="Scholas USA community gathering with young people in Los Angeles"
+              alt="Pope Francis greeting Scholas young people in front of St. Peter's Basilica"
               className="h-full w-full object-cover"
               loading="lazy"
             />
