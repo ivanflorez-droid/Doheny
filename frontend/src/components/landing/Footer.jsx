@@ -59,7 +59,7 @@ export const Footer = () => {
                   <a
                     href={`mailto:${contact.value}`}
                     data-testid={`footer-contact-${contact.label.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
-                    className="text-white transition-colors hover:text-brand-blue"
+                    className="text-white transition-colors hover:text-brand-teal"
                   >
                     {contact.value}
                   </a>

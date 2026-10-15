@@ -7,10 +7,10 @@ export const Invitation = () => {
     <section
       id="invitation"
       data-testid="invitation-section"
-      className="border-y border-brand-blue/15 bg-[#EAF6FC] px-5 py-16 md:px-9 md:py-24 lg:px-16"
+      className="border-y border-brand-teal/15 bg-[#E6F2F2] px-5 py-16 md:px-9 md:py-24 lg:px-16"
     >
       <Reveal className="mx-auto max-w-3xl space-y-6 text-center">
-        <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-blue">
+        <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-teal">
           {INVITATION.eyebrow}
         </span>
         <h2 className="font-display text-[29px] font-normal leading-tight text-brand-deep md:text-4xl lg:text-[44px]">
@@ -23,7 +23,7 @@ export const Invitation = () => {
           <a
             href={INVITATION.primaryCta.href}
             data-testid="invitation-primary-cta"
-            className="inline-flex h-[52px] items-center rounded-full bg-brand-deep px-8 text-sm font-semibold text-white shadow-md transition-colors hover:bg-brand-blue md:h-14"
+            className="inline-flex h-[52px] items-center rounded-full bg-brand-deep px-8 text-sm font-semibold text-white shadow-md transition-colors hover:bg-brand-teal md:h-14"
           >
             {INVITATION.primaryCta.label}
           </a>

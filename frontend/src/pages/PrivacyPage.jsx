@@ -9,7 +9,7 @@ export default function PrivacyPage() {
         <Link
           to="/"
           data-testid="privacy-back-link"
-          className="mb-10 inline-flex items-center gap-2 text-sm font-semibold text-brand-deep transition-colors hover:text-brand-blue"
+          className="mb-10 inline-flex items-center gap-2 text-sm font-semibold text-brand-deep transition-colors hover:text-brand-teal"
         >
           <ArrowLeft className="h-4 w-4" /> Back to the partnership page
         </Link>
@@ -33,7 +33,7 @@ export default function PrivacyPage() {
             <a
               href="mailto:info@scholasusa.org"
               data-testid="privacy-contact-link"
-              className="font-semibold text-brand-deep underline decoration-brand-blue/40 underline-offset-4 transition-colors hover:text-brand-blue"
+              className="font-semibold text-brand-deep underline decoration-brand-teal/40 underline-offset-4 transition-colors hover:text-brand-teal"
             >
               info@scholasusa.org
             </a>

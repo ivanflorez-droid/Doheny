@@ -10,7 +10,7 @@ const ICONS = {
   sprout: Sprout,
 };
 
-const ACCENT_DOTS = ["bg-brand-blue", "bg-brand-yellow", "bg-brand-green", "bg-brand-red", "bg-white"];
+const ACCENT_DOTS = ["bg-brand-teal", "bg-brand-yellow", "bg-brand-green", "bg-brand-red", "bg-white"];
 
 export const Impact = () => {
   return (

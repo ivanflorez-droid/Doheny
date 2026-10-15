@@ -22,7 +22,7 @@ export const Hero = () => {
         >
           {HERO.headlineLines.map((line, i) => (
             <span key={line} className="hero-line">
-              <span className={i === 2 ? "italic text-brand-blue" : ""}>{line}</span>
+              <span className={i === 2 ? "italic text-brand-teal" : ""}>{line}</span>
             </span>
           ))}
         </h1>
@@ -38,7 +38,7 @@ export const Hero = () => {
           <a
             href={HERO.primaryCta.href}
             data-testid="hero-primary-cta"
-            className="inline-flex h-[52px] items-center rounded-full bg-brand-deep px-8 text-sm font-semibold text-white shadow-md transition-colors hover:bg-brand-blue md:h-14"
+            className="inline-flex h-[52px] items-center rounded-full bg-brand-deep px-8 text-sm font-semibold text-white shadow-md transition-colors hover:bg-brand-teal md:h-14"
           >
             {HERO.primaryCta.label}
           </a>

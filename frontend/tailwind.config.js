@@ -19,15 +19,15 @@ module.exports = {
       },
       colors: {
         brand: {
-          blue: '#009FE3',
-          deep: '#123D66',
+          teal: '#0D9B9D',
+          deep: '#007072',
           yellow: '#F5C542',
           green: '#79B942',
           red: '#E94B4B',
           alabaster: '#FAF8F5',
-          ink: '#172B3A',
-          slate: '#617383',
-          night: '#1A2E3B'
+          ink: '#17393B',
+          slate: '#527173',
+          night: '#093A3C'
         },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',

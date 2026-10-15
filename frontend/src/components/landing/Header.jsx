@@ -37,7 +37,7 @@ export const Header = () => {
           <a
             href="#partnership"
             data-testid="header-cta"
-            className="hidden h-11 items-center rounded-full bg-brand-deep px-6 text-xs font-semibold uppercase tracking-wider text-white transition-colors hover:bg-brand-blue sm:inline-flex"
+            className="hidden h-11 items-center rounded-full bg-brand-deep px-6 text-xs font-semibold uppercase tracking-wider text-white transition-colors hover:bg-brand-teal sm:inline-flex"
           >
             Explore Partnership
           </a>
@@ -75,7 +75,7 @@ export const Header = () => {
             href="#partnership"
             data-testid="mobile-header-cta"
             onClick={() => setOpen(false)}
-            className="mt-4 flex h-12 items-center justify-center rounded-full bg-brand-deep text-xs font-semibold uppercase tracking-wider text-white transition-colors hover:bg-brand-blue"
+            className="mt-4 flex h-12 items-center justify-center rounded-full bg-brand-deep text-xs font-semibold uppercase tracking-wider text-white transition-colors hover:bg-brand-teal"
           >
             Explore Partnership
           </a>

@@ -16,7 +16,8 @@ give.scholasusa.org/donate-for-youth, scholasusa.org, dohenyfoundation.org.
 
 ## Architecture
 - React (CRA/craco) + Tailwind frontend; FastAPI backend; MongoDB (motor).
-- Design direction: "Scholas Editorial Monograph" (user-picked) — alabaster + deep navy,
+- Design direction: "Scholas Editorial Monograph" (user-picked) — alabaster + primary teal
+  #007072 and its gamut (#0D9B9D light, #093A3C night, user request 2026-10-15),
   serif display (Iowan Old Style/Palatino stack) + system sans, editorial centered layout.
   Source of truth: /app/design/direction.html; guidelines: /app/design_guidelines.json.
 - Content centralized in /app/frontend/src/content.js (CMS-style editable data file per brief §19).

@@ -7,16 +7,16 @@
    ========================================================================== */
 @layer base {
     :root {
-        /* Scholas brand tokens */
-        --scholas-blue: #009fe3;
-        --scholas-deep: #123d66;
+        /* Scholas brand tokens — primary #007072 and its gamut */
+        --scholas-teal: #0d9b9d;
+        --scholas-deep: #007072;
         --scholas-yellow: #f5c542;
         --scholas-green: #79b942;
         --scholas-red: #e94b4b;
         --scholas-alabaster: #faf8f5;
-        --scholas-ink: #172b3a;
-        --scholas-slate: #617383;
-        --scholas-night: #1a2e3b;
+        --scholas-ink: #17393b;
+        --scholas-slate: #527173;
+        --scholas-night: #093a3c;
 
         /* shadcn tokens */
         --background: 0 0% 100%;
@@ -98,7 +98,7 @@
         color: #ffffff;
     }
     :focus-visible {
-        outline: 2px solid var(--scholas-blue);
+        outline: 2px solid var(--scholas-teal);
         outline-offset: 2px;
     }
 }

@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal";
 
 const STEP_STYLES = {
   deep: "bg-brand-deep/10 text-brand-deep border-brand-deep/30",
-  blue: "bg-brand-blue/10 text-brand-blue border-brand-blue/40",
+  blue: "bg-brand-teal/10 text-brand-teal border-brand-teal/40",
   yellow: "bg-brand-yellow/20 text-brand-deep border-brand-yellow/50",
   red: "bg-brand-red/10 text-brand-red border-brand-red/40",
   green: "bg-brand-green/15 text-brand-green border-brand-green/50",
@@ -18,7 +18,7 @@ export const Model = () => {
     >
       <div className="mx-auto max-w-6xl">
         <Reveal className="mx-auto mb-14 max-w-2xl space-y-4 text-center md:mb-16">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-blue">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-teal">
             {MODEL.eyebrow}
           </span>
           <h2 className="font-display text-[29px] font-normal leading-tight text-brand-deep md:text-4xl lg:text-[42px]">
@@ -29,7 +29,7 @@ export const Model = () => {
 
         <div className="relative">
           <div
-            className="absolute left-[10%] right-[10%] top-6 hidden border-t-2 border-dashed border-brand-blue/30 lg:block"
+            className="absolute left-[10%] right-[10%] top-6 hidden border-t-2 border-dashed border-brand-teal/30 lg:block"
             aria-hidden="true"
           />
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5 lg:gap-4">

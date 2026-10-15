@@ -11,7 +11,7 @@ export const Mission = () => {
     >
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 md:grid-cols-12">
         <Reveal className="space-y-6 md:col-span-7">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-blue">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-teal">
             {MISSION.eyebrow}
           </span>
           <h2 className="font-display text-[29px] font-normal leading-tight text-brand-deep md:text-4xl lg:text-[42px]">

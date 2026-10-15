@@ -10,7 +10,7 @@ export const Partners = () => {
     >
       <div className="mx-auto max-w-5xl text-center">
         <Reveal className="mx-auto mb-12 max-w-2xl space-y-4">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-blue">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-teal">
             {PARTNERS.eyebrow}
           </span>
           <h2 className="font-display text-[29px] font-normal leading-tight text-brand-deep md:text-4xl lg:text-[42px]">

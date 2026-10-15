@@ -10,7 +10,7 @@ export const Partnership = () => {
     >
       <div className="mx-auto max-w-5xl">
         <Reveal className="mx-auto mb-14 max-w-2xl space-y-4 text-center md:mb-16">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-blue">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-teal">
             {PARTNERSHIP.eyebrow}
           </span>
           <h2 className="font-display text-[29px] font-normal leading-tight text-brand-deep md:text-4xl lg:text-[42px]">
@@ -32,7 +32,7 @@ export const Partnership = () => {
               >
                 <span
                   className={`text-xs font-bold uppercase tracking-wider ${
-                    tier.featured ? "text-brand-yellow" : "text-brand-blue"
+                    tier.featured ? "text-brand-yellow" : "text-brand-teal"
                   }`}
                   style={tier.featured ? { color: "#b98a12" } : undefined}
                 >
@@ -60,7 +60,7 @@ export const Partnership = () => {
           <a
             href={PARTNERSHIP.primaryCta.href}
             data-testid="partnership-primary-cta"
-            className="inline-flex h-[52px] items-center rounded-full bg-brand-deep px-8 text-sm font-semibold text-white shadow-md transition-colors hover:bg-brand-blue md:h-14"
+            className="inline-flex h-[52px] items-center rounded-full bg-brand-deep px-8 text-sm font-semibold text-white shadow-md transition-colors hover:bg-brand-teal md:h-14"
           >
             {PARTNERSHIP.primaryCta.label}
           </a>

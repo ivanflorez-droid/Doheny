@@ -20,7 +20,7 @@ const validate = (form) => {
 };
 
 const inputClass = (hasError) =>
-  `w-full rounded-xl border bg-brand-alabaster px-4 py-3 text-sm text-brand-ink transition-colors placeholder:text-brand-slate/60 focus:outline-none focus:ring-2 focus:ring-brand-blue/40 ${
+  `w-full rounded-xl border bg-brand-alabaster px-4 py-3 text-sm text-brand-ink transition-colors placeholder:text-brand-slate/60 focus:outline-none focus:ring-2 focus:ring-brand-teal/40 ${
     hasError ? "border-brand-red" : "border-brand-deep/20"
   }`;
 
@@ -78,7 +78,7 @@ export const ContactForm = () => {
                   setForm(INITIAL);
                   setSubmitted(false);
                 }}
-                className="text-xs font-semibold uppercase tracking-wider text-brand-blue transition-colors hover:text-brand-deep"
+                className="text-xs font-semibold uppercase tracking-wider text-brand-teal transition-colors hover:text-brand-deep"
               >
                 Send another inquiry
               </button>
@@ -196,7 +196,7 @@ export const ContactForm = () => {
                   type="submit"
                   data-testid="contact-submit-button"
                   disabled={submitting}
-                  className="flex h-[52px] w-full items-center justify-center gap-2 rounded-xl bg-brand-deep text-sm font-bold uppercase tracking-wider text-white transition-colors hover:bg-brand-blue disabled:cursor-not-allowed disabled:opacity-70"
+                  className="flex h-[52px] w-full items-center justify-center gap-2 rounded-xl bg-brand-deep text-sm font-bold uppercase tracking-wider text-white transition-colors hover:bg-brand-teal disabled:cursor-not-allowed disabled:opacity-70"
                 >
                   {submitting && <Loader2 className="h-4 w-4 animate-spin" aria-hidden="true" />}
                   {submitting ? "Sending…" : "Submit Partnership Inquiry"}

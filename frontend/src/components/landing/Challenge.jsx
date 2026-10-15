@@ -5,7 +5,7 @@ import { Reveal } from "./Reveal";
 const ICONS = { heart: Heart, users: Users, "hand-heart": HandHeart };
 
 const ACCENTS = {
-  blue: { chip: "bg-brand-blue/10 text-brand-blue", bar: "bg-brand-blue" },
+  blue: { chip: "bg-brand-teal/10 text-brand-teal", bar: "bg-brand-teal" },
   yellow: { chip: "bg-brand-yellow/20 text-brand-deep", bar: "bg-brand-yellow" },
   green: { chip: "bg-brand-green/15 text-brand-green", bar: "bg-brand-green" },
 };

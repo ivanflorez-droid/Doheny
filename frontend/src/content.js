@@ -25,9 +25,9 @@ export const ASSETS = {
   archbishopPortrait:
     "https://give.scholasusa.org/wp-content/uploads/2026/03/mons-jose-horacio-gomez.webp",
   missionImage:
-    "https://give.scholasusa.org/wp-content/uploads/2026/03/2.jpg",
+    "https://cdn.prod.website-files.com/64bfdbb4b25648d9c24b7aca/6585ea479398ae84776b8990_cq5dam.thumbnail.cropped.1500.844.webp",
   picoUnionImage:
-    "https://give.scholasusa.org/wp-content/uploads/2026/03/1.jpg",
+    "https://give.scholasusa.org/wp-content/uploads/2026/05/Pico%E2%80%91Union-Needs-You-Now-Fundrasing-1024x554.jpg",
 };
 
 export const NAV_LINKS = [
@@ -66,7 +66,7 @@ export const MISSION = {
     { value: "Pope Francis", label: "Founded by" },
     { value: "190 countries", label: "Global Scholas network" },
     { value: "24,000+", label: "Youth & children impacted in the U.S." },
-    { value: "2020", label: "Established · 501(c)(3)" },
+    { value: "2020", label: "Established · Nonprofit" },
   ],
   cta: { label: "Discover Our Catholic Mission", href: "https://scholasusa.org/who-are-we" },
   imageCaption: {

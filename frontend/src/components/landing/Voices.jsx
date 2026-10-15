@@ -25,7 +25,7 @@ export const Voices = () => {
               data-testid="archbishop-quote-card"
               className="relative h-full rounded-3xl border border-brand-deep/10 bg-brand-alabaster p-8 md:p-12"
             >
-              <Quote className="mb-6 h-10 w-10 text-brand-blue/30" aria-hidden="true" />
+              <Quote className="mb-6 h-10 w-10 text-brand-teal/30" aria-hidden="true" />
               <blockquote className="font-display text-xl font-normal italic leading-relaxed text-brand-deep md:text-2xl">
                 “{VOICES.quote.text}”
               </blockquote>
@@ -57,14 +57,14 @@ export const Voices = () => {
                   className="group flex items-start justify-between gap-4 rounded-2xl border border-brand-deep/10 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
                 >
                   <div>
-                    <div className="text-[10px] font-bold uppercase tracking-[0.18em] text-brand-blue">
+                    <div className="text-[10px] font-bold uppercase tracking-[0.18em] text-brand-teal">
                       {item.label}
                     </div>
                     <div className="font-display mt-2 text-base font-medium leading-snug text-brand-deep">
                       {item.title}
                     </div>
                   </div>
-                  <ArrowUpRight className="mt-1 h-5 w-5 flex-none text-brand-slate transition-colors group-hover:text-brand-blue" />
+                  <ArrowUpRight className="mt-1 h-5 w-5 flex-none text-brand-slate transition-colors group-hover:text-brand-teal" />
                 </a>
               </Reveal>
             ))}
